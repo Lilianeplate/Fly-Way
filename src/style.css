@@ -1,0 +1,62 @@
+header {
+    display: flex;
+    border-radius: 0px 0px 20px 20px;
+    background: var(--Background-color-header, linear-gradient(90deg, rgba(50, 55, 71, 0.90) 2.9%, rgba(86, 129, 144, 0.80) 48.77%, rgba(149, 210, 196, 0.71) 97.44%));
+}
+
+.logo img {
+    display: flex;
+    width: 300px;
+    height: auto;
+    padding: 11.705px 94.045px 11.705px 16.386px;
+    align-items: center;
+    gap: 58.977px;
+    flex-shrink: 0;
+    margin-left: 32px;
+    margin-right: auto;
+}
+
+
+    
+header .menu {
+    display: flex;
+    width: 500px;
+    padding: 12px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-left: auto;
+    margin-right: 32px; /* Adicionando a margem à direita */
+    }
+    
+
+
+.menu .quem_somos {
+    color: #000;
+    text-align: center;
+    font-family: Italiana;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 117.857%; /* 33px */
+}
+
+.menu .encontre_uma_agencia {
+    color: #000;
+    text-align: center;
+    font-family: Italiana;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 117.857%; /* 33px */
+}
+
+.menu .o_que_voce_procura {
+    color: #000;
+    text-align: center;
+    font-family: Italiana;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 117.857%; /* 33px */
+}
