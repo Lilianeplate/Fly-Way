@@ -1,6 +1,11 @@
+body {
+    background: #E6F4F1;
+}
+
 header {
     display: flex;
     border-radius: 0px 0px 20px 20px;
+    margin-bottom: 32px;
     background: var(--Background-color-header, linear-gradient(90deg, rgba(50, 55, 71, 0.90) 2.9%, rgba(86, 129, 144, 0.80) 48.77%, rgba(149, 210, 196, 0.71) 97.44%));
 }
 
@@ -162,3 +167,81 @@ header .menu {
 #radio4:checked ~ .navigation-auto .auto-btn4 {
     background-color: #fff;
 }
+
+
+/* search_conainer */
+
+
+.search_container {
+    display: flex;
+    max-width: 95%;
+    padding: 30px 36px;
+    margin: 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 28px;
+    background: linear-gradient(91deg, rgba(86, 129, 144, 0.57) 37.84%, rgba(104, 119, 158, 0.57) 84.96%);
+    box-shadow: 7px 7px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.search_container a {
+    color: #000;
+    text-align: center;
+    font-family: Italiana;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 117.857%; /* 33px */
+    
+   
+}
+
+
+.search_container input {
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 32px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: #E6F4F1;
+}
+
+.search_container input::placeholder {
+    text-align: center;
+    color: #5e5d5d;
+    font-family: "Advent Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 119.658%; /* 28.718px */
+}
+
+.search_container .local {
+  display: flex;
+  gap: 16px;
+}
+
+
+.search_container .objetivo {
+    display: flex;
+    gap: 16px;
+  }
+  
+
+  .search_container button {
+    border-radius: 50.869px;
+    border: 2px solid #568190;
+    background: #96AFB9;
+    width: 100px;
+    height: 40px;
+    color: #000;
+    text-align: center;
+    font-family: "Istok Web";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 144.015%; /* 35.366px */
+  }
