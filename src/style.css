@@ -176,7 +176,7 @@ header .menu {
     display: flex;
     max-width: 95%;
     padding: 30px 36px;
-    margin: 32px;
+    margin: 20px 12px 20px 20px;
     justify-content: center;
     align-items: center;
     gap: 16px;
@@ -252,11 +252,11 @@ header .menu {
     padding-top: 59px;
     flex-direction: column;
     justify-content: flex;
-    gap: 32px;
+    gap: 28px;
     border-radius: 16px;
     justify-content: baseline;
     align-items: center;
-    margin: auto 32px 30px 32px;
+    margin: auto auto 30px 20px;
     padding: 32px;
     background: #B6D0CA;
     max-width: 95%;
@@ -275,12 +275,52 @@ header .menu {
     font-weight: 400;
   }
 
-  .main_container .estudos {
-
- 
+  .estudos_destaques {
+    display: flex;
+    gap: 12px;
+    flex-direction: row;
+    justify-content: space-between; /* Distribui as divs uniformemente */
+  }
+  
+  .trabalho_destaques {
+    display: flex;
+    gap: 12px;
+    flex-direction: row;
+    justify-content: space-between; /* Distribui as divs uniformemente */
   }
 
+  .ferias_destaques {
+    display: flex;
+    gap: 12px;
+    flex-direction: row;
+    justify-content: space-between; /* Distribui as divs uniformemente */
+  }
+ 
+
+
   .main_container .estudos span {
+    color: #000;
+    text-align: left;
+    padding: 12px;
+    text-shadow: 6px 4pxx 4px rgba(0, 0, 0, 0.29);
+    font-family: Italiana;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .main_container .ferias span {
+    color: #000;
+    text-align: left;
+    padding: 12px;
+    text-shadow: 6px 4pxx 4px rgba(0, 0, 0, 0.29);
+    font-family: Italiana;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .main_container .trabalho span {
     color: #000;
     text-align: left;
     padding: 12px;
@@ -295,7 +335,7 @@ header .menu {
   .roma {
     margin-top: 24px;
     position: relative;
-    display: inline-block;
+   
     border-radius: 32px;
     width: 350px;
     height: 330px;
@@ -312,7 +352,6 @@ header .menu {
     position: absolute;
     top: 69%;
     left: 50%;
-    display: inline;
     align-items: center;
     transform: translate(-50%, -50%);
     color: white;
@@ -323,10 +362,102 @@ header .menu {
     width: 95%;
   }
   
+
+  .australia {
+    margin-top: 24px;
+    position: relative;
+   
+    border-radius: 32px;
+    width: 350px;
+    height: 330px;
+  }
+  
+  .australia img {
+    border-radius: 12px;
+    width: 350px;
+    height: 250px;
+  }
+
+  .australia .texto {
+    border-radius: 12px;
+    position: absolute;
+    top: 69%;
+    left: 50%;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    background-color: rgba(86, 68, 91, 0.80);
+    padding: 10px;
+    width: 95%;
+  }
+
+
+  .eua {
+    margin-top: 24px;
+    position: relative;
+   
+    border-radius: 32px;
+    width: 350px;
+    height: 330px;
+  }
+  
+  .eua img {
+    border-radius: 12px;
+    width: 350px;
+    height: 250px;
+  }
+
+  .eua .texto {
+    border-radius: 12px;
+    position: absolute;
+    top: 69%;
+    left: 50%;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    background-color: rgba(86, 68, 91, 0.80);
+    padding: 10px;
+    width: 95%;
+  }
+
+  .nova_zelandia {
+    margin-top: 24px;
+    position: relative;
+   
+    border-radius: 32px;
+    width: 350px;
+    height: 330px;
+  }
+  
+  .nova_zelandia img {
+    border-radius: 12px;
+    width: 350px;
+    height: 250px;
+  }
+
+  .nova_zelandia .texto {
+    border-radius: 12px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(86, 68, 91, 0.80);
+    padding: 10px;
+    width: 95%;
+  }
+
   .malta {
     margin-top: 24px;
     position: relative;
-    display: inline-block;
+   
     border-radius: 32px;
     width: 350px;
     height: 330px;
@@ -343,7 +474,7 @@ header .menu {
     position: absolute;
     top: 69%;
     left: 50%;
-    display: inline;
+ 
     align-items: center;
     transform: translate(-50%, -50%);
     color: white;
@@ -358,7 +489,7 @@ header .menu {
   .canada {
     margin-top: 24px;
     position: relative;
-    display: inline-block;
+ 
     border-radius: 32px;
     width: 350px;
     height: 330px;
@@ -375,7 +506,7 @@ header .menu {
     position: absolute;
     top: 69%;
     left: 50%;
-    display: inline;
+  
     align-items: center;
     transform: translate(-50%, -50%);
     color: white;
