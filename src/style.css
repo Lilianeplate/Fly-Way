@@ -298,7 +298,7 @@ header .menu {
  
 
 
-  .main_container .estudos span {
+  .main_container .estudos  .subtitle {
     color: #000;
     text-align: left;
     padding: 12px;
@@ -332,7 +332,7 @@ header .menu {
   }
   
 
-  .roma {
+   .pais_destaque {
     margin-top: 24px;
     position: relative;
    
@@ -341,44 +341,47 @@ header .menu {
     height: 330px;
   }
   
-  .roma img {
+  .pais_destaque img {
     border-radius: 12px;
     width: 350px;
     height: 250px;
   }
 
-  .roma .texto {
+  .pais_destaque .texto {
     border-radius: 12px;
     position: absolute;
-    top: 69%;
+    top: 70%;
     left: 50%;
+   
     align-items: center;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
     background-color: rgba(86, 68, 91, 0.80);
     padding: 10px;
     width: 95%;
-  }
-  
-
-  .australia {
-    margin-top: 24px;
-    position: relative;
    
-    border-radius: 32px;
-    width: 350px;
-    height: 330px;
   }
   
-  .australia img {
-    border-radius: 12px;
-    width: 350px;
-    height: 250px;
+
+  .main_container .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
-  .australia .texto {
+  .footer span{
+
+    font-family: Italiana;
+    font-size: 12px;
+
+  }
+
+
+ 
+
+  /* .australia .texto {
     border-radius: 12px;
     position: absolute;
     top: 69%;
@@ -391,55 +394,13 @@ header .menu {
     background-color: rgba(86, 68, 91, 0.80);
     padding: 10px;
     width: 95%;
-  }
+  } */
 
-
-  .eua {
-    margin-top: 24px;
-    position: relative;
-   
-    border-radius: 32px;
-    width: 350px;
-    height: 330px;
-  }
+ 
   
-  .eua img {
-    border-radius: 12px;
-    width: 350px;
-    height: 250px;
-  }
 
-  .eua .texto {
-    border-radius: 12px;
-    position: absolute;
-    top: 69%;
-    left: 50%;
-    align-items: center;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 24px;
-    text-align: center;
-    background-color: rgba(86, 68, 91, 0.80);
-    padding: 10px;
-    width: 95%;
-  }
 
-  .nova_zelandia {
-    margin-top: 24px;
-    position: relative;
-   
-    border-radius: 32px;
-    width: 350px;
-    height: 330px;
-  }
-  
-  .nova_zelandia img {
-    border-radius: 12px;
-    width: 350px;
-    height: 250px;
-  }
-
-  .nova_zelandia .texto {
+  /* .nova_zelandia .texto {
     border-radius: 12px;
     position: absolute;
     top: 70%;
@@ -452,67 +413,6 @@ header .menu {
     background-color: rgba(86, 68, 91, 0.80);
     padding: 10px;
     width: 95%;
-  }
+  } */
 
-  .malta {
-    margin-top: 24px;
-    position: relative;
-   
-    border-radius: 32px;
-    width: 350px;
-    height: 330px;
-  }
   
-  .malta img {
-    border-radius: 12px;
-    width: 350px;
-    height: 250px;
-  }
-
-  .malta .texto {
-    border-radius: 12px;
-    position: absolute;
-    top: 69%;
-    left: 50%;
- 
-    align-items: center;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 24px;
-    text-align: center;
-    background-color: rgba(86, 68, 91, 0.80);
-    padding: 10px;
-    width: 95%;
-  }
-
-
-  .canada {
-    margin-top: 24px;
-    position: relative;
- 
-    border-radius: 32px;
-    width: 350px;
-    height: 330px;
-  }
-  
-  .canada img {
-    border-radius: 12px;
-    width: 350px;
-    height: 250px;
-  }
-
-  .canada .texto {
-    border-radius: 12px;
-    position: absolute;
-    top: 69%;
-    left: 50%;
-  
-    align-items: center;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 24px;
-    text-align: center;
-    background-color: rgba(86, 68, 91, 0.80);
-    padding: 10px;
-    width: 95%;
-  }
