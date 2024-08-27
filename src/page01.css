@@ -1,0 +1,226 @@
+body {
+    background: #E6F4F1;
+}
+
+
+/* HEARDER */
+header {
+    display: flex;
+    border-radius: 0px 0px 20px 20px;
+    margin-bottom: 32px;
+    background: var(--Background-color-header, linear-gradient(90deg, rgba(50, 55, 71, 0.90) 2.9%, rgba(86, 129, 144, 0.80) 48.77%, rgba(149, 210, 196, 0.71) 97.44%));
+}
+
+.logo img {
+    display: flex;
+    width: 300px;
+    height: auto;
+    padding: 11.705px 94.045px 11.705px 16.386px;
+    align-items: center;
+    gap: 58.977px;
+    flex-shrink: 0;
+    margin-left: 32px;
+    margin-right: auto;
+}
+
+    
+header .menu {
+    display: flex;
+    width: 500px;
+    padding: 12px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-left: auto;
+    margin-right: 32px; /* Adicionando a margem à direita */
+    }
+    
+
+.menu .quem_somos {
+    color: #000;
+    text-align: center;
+    font-family: Italiana;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 117.857%; /* 33px */
+}
+
+.menu .encontre_uma_agencia {
+    color: #000;
+    text-align: center;
+    font-family: Italiana;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 117.857%; /* 33px */
+}
+
+.menu .o_que_voce_procura {
+    color: #000;
+    text-align: center;
+    font-family: Italiana;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 117.857%; /* 33px */
+}
+
+
+
+/* SEARCHE CONTAINER */
+.search_container {
+    display: flex;
+    max-width: 95%;
+    padding: 30px 36px;
+    margin: 20px 12px 20px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 28px;
+    background: linear-gradient(91deg, rgba(86, 129, 144, 0.57) 37.84%, rgba(104, 119, 158, 0.57) 84.96%);
+    box-shadow: 7px 7px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.search_container a {
+    color: #000;
+    text-align: center;
+    font-family: Italiana;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 117.857%; /* 33px */
+    
+   
+}
+
+
+.search_container input {
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 32px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: #E6F4F1;
+}
+
+.search_container input::placeholder {
+    text-align: center;
+    color: #5e5d5d;
+    font-family: "Advent Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 119.658%; /* 28.718px */
+}
+
+.search_container .local {
+  display: flex;
+  gap: 16px;
+}
+
+
+.search_container .objetivo {
+    display: flex;
+    gap: 16px;
+  }
+  
+
+  .search_container button {
+    border-radius: 50.869px;
+    border: 2px solid #568190;
+    background: #96AFB9;
+    width: 100px;
+    height: 40px;
+    color: #000;
+    text-align: center;
+    font-family: "Istok Web";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 144.015%; /* 35.366px */
+  }
+
+
+  /*MAIN*/
+.filtros{ 
+    display: grid;
+    width: 269px;
+    border-radius: 12px;
+    background: #D9D9D9;
+    margin: 24px;
+    gap: 12px;
+}
+
+.filtros .filtro {
+    display: flex; 
+    margin: 24px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px; 
+    height: 54px;
+    text-align: center;
+    border-radius: 16px;
+    border: 1px solid #000;
+    background: #B6D0CA;
+    color: #000;
+    font-family: "Lucida Calligraphy";
+    font-size: 32px;
+    font-style: italic;  
+}
+
+ .filtros_categoria {
+   
+    text-align: center;
+    font-weight: 400;
+    font-family: "Lucida Calligraphy";
+    font-style: normal;
+    font-size: 24px;
+    color: #000;
+}
+
+.filtros .filtros__categoria {
+    margin-bottom: 24px;
+}
+
+.filtros ul li {
+    font-family: Italiana;
+    font-size: 20px;
+    text-align: center;
+    line-height: 26px;
+    margin-top: 12px;
+}
+
+.filtros input {
+    
+    margin: 20px;
+    width: 232px;
+    height: 54px;
+    border-radius: 5px;
+    background: #B1ABAB;
+    border: #1d1b1b solid 1px; 
+}
+
+.filtros input::placeholder {
+    text-align: center;
+    color: #080808;
+    font-family: "Grandstander";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 119.658%; /* 28.718px */
+}
+
+.filtros button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 28px 80px 28px 80px;
+    border: #000 solid 2px;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: #7b898c;
+}

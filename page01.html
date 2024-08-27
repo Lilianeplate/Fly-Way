@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fly Way</title>
+    <link rel="stylesheet" href="src/reset.css">
+    <link rel="stylesheet" href="src/page01.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="src/img/Logo com nome.png" alt=""></a>
+        </div>
+
+        <div class="menu">
+            <a href="" class="quem_somos">Quem somos</a>
+            <a href="" class="encontre_uma_agencia">Encontre uma agência</a>
+            <a href="" class="o_que_voce_procura">O que você procura?</a>
+        </div>
+    </header>
+
+    <div class="search_container">
+        <div class="local">
+            <a href="">Para onde você deseja ir?</a>
+            <input type="text" placeholder="Selecione o local desejado">
+        </div>
+
+        <div class="objetivo">
+            <a href="">Qual o seu objetivo?</a>
+            <input type="text" placeholder="Selecione seu objetivo">
+        </div>
+
+        <button>Buscar</button>
+    </div>
+
+    <main>
+        <div class="filtros">
+            <h1 class="filtro">Filtros <img src="src/img/novas_imagens/filtrar.png" alt="filtrar"></h1>
+
+            <span class="filtros_categoria">Objetivo</span>
+
+            <ul class="filtros__categoria">
+                <li>Estudar</li>
+                <li>Trabalhar</li>
+                <li>Férias</li>
+            </ul>
+
+            <span class="filtros_categoria">Local</span>
+            <ul class="filtros__categoria">
+                <li>Austrália</li>
+                <li>Canadá</li>
+                <li>Roma</li>
+                <li>Malta</li>
+                <li>EUA</li>
+            </ul>
+
+            <span class="filtros_categoria">Valor</span>
+            <input type="number" placeholder="Valor min.">
+            <input type="number" placeholder="Valor máx.">
+
+            <button id="filtrar">Filtrar</button>
+        </div>
+    </main>
+
+    <scrip src="script.js"></script>
+</body>
+</html>
