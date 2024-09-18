@@ -16,14 +16,13 @@
             </div>
 
             <div class="menu">
-                <a href="#" class="quem_somos" id="quem_somos">Quem somos</a>
-                    <div id="quemSomosTexto">
-                       
-                    </div>
+                <a href="#" class="quem_somos" id="quem_somos" onclick="mostrarQuemSomos()">Quem somos</a>
 
-                <a href="" class="encontre_uma_agencia">Encontre uma agência</a>
-                <a href="" class="o_que_voce_procura">O que você procura?</a>
+                <div id="quemSomosTexto" class="texto-quem-somos">
+
+                </div>
             </div>
+
         </header>
 
 
@@ -79,7 +78,7 @@
 
             <div class="objetivo">
                 <p>Qual o seu objetivo?</p>
-                <input type="text" placeholder="Selecione seu objetivo">
+                <input type="text" placeholder="Selecione seu objetivo" id="objetivo">
             </div>
 
             <button>Buscar</button>
@@ -90,90 +89,30 @@
 
             <span>Destaques</span>
 
-            <div class="estudos"> 
-                <a class="subtitle" href="#">Estudos</a> <br>
+            <section class="estudos"> 
+                <a class="subtitle" href="#" id="subtitle_estudos">Estudos</a> <br>
 
-                <div class="estudos_destaques">
-                    <div class="pais_destaque">
-                        <img src="src/img/novas_imagens/destaques/coliseo.jpg" alt="">
-                        <a class= "texto" href="#">ROMA em até 24xR$399,99</a>
-                    </div>
-
-                    <div class="pais_destaque" >
-                        <img src="src/img/novas_imagens/destaques/malta_noite.JPG" alt="">
-                        <a class= "texto" href="#">MALTA em até 24xR$399,99</a>
-                    </div>
-
-                    <div class="pais_destaque">
-                        <img src="src/img/novas_imagens/destaques/australia.jpg" alt="">
-                        <a class= "texto" href="#">AUSTRÁLIA em até 24xR$399,99</a>
-                    </div>
-
-                    <div class="pais_destaque">
-                        <img src="src/img/novas_imagens/destaques/canada.jpg" alt="">
-                        <a class= "texto" href="#">CANADÁ em até 24xR$399,99</a>
-                    </div>
-                </div>
+                <section class="estudos_destaques" id="estudos_destaques">
+                </section>
                 
-            </div>
+            </section>
 
-            <div class="trabalho"> 
-                <span>Trabalho</span> <br>
+            <section class="trabalho"> 
+                <a class="subtitle" href="#" id="subtitle_férias">Trabalho</a> <br>
 
-                <div class="trabalho_destaques">
-
-                    <div class="pais_destaque">
-                        <img src="src/img/novas_imagens/destaques/fontana.jpg" alt="">
-                        <a class= "texto" href="#">ROMA em até 24xR$399,99</a>
-                    </div>
-
-                    <div class="pais_destaque">
-                        <img src="src/img/novas_imagens/destaques/eua.jpg" alt="">
-                        <a class= "texto" href="#">EUA em até 24xR$399,99</a>
-                    </div>
-
-                    <div class="pais_destaque">
-                        <img src="src/img/novas_imagens/malta_noite.JPG" alt="">
-                        <a class= "texto" href="#">MALTA em até 24xR$399,99</a>
-                    </div>
-
-                    <div class="pais_destaque">
-                        <img src="src/img/novas_imagens/destaques/canada.jpg" alt="">
-                        <a class= "texto" href="#">CANADÁ em até 24xR$399,99</a>
-                    </div>
-
-                </div>
+                <section class="trabalho_destaques" id="trabalho_destaques">
+                </section>
                 
-            </div>
+            </section>
 
 
-            <div class="ferias"> 
-                <span>Férias</span> <br>
+            <section class="ferias"> 
+                <a class="subtitle" href="#" id="subtitle_ferias">Férias</a> <br>
 
-                <div class="ferias_destaques">
-                    <div class="pais_destaque">
-                        <img src="src/img/novas_imagens/destaques/parque_coliseo.jpg" alt="">
-                        <a class= "texto" href="#">ROMA em até 24xR$399,99</a>
-                    </div>
-
-                    <div class="pais_destaque">
-                        <img src="src/img/novas_imagens/malta_noite.JPG" alt="">
-                        <a class= "texto" href="#">MALTA em até 24xR$399,99</a>
-                    </div>
-
-                    <div class="pais_destaque">
-                        <img src="src/img/novas_imagens/destaques/canada.jpg" alt="">
-                        <a class= "texto" href="#">CANADÁ em até 24xR$399,99</a>
-                    </div>
-
-                    <div class="pais_destaque">
-                        <img src="src/img/novas_imagens/destaques/nova_zelandia.jpg" alt="">
-                        <a class= "texto" href="#">NOVA ZELÂNDIA em até 24xR$399,99</a>
-                    </div>
-
-                </div>
-
-        </div>
+                <section class="ferias_destaques" id="ferias_destaques">
+                </section>
+                
+            </section>
 
 
         <footer class="footer">
@@ -182,7 +121,8 @@
 
     </main>
 
+    <script src="dados.js"></script>
     <script src="script.js"></script>
-
+    
 </body>
 </html>

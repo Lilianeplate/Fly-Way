@@ -46,28 +46,6 @@ header .menu {
     line-height: 117.857%; /* 33px */
 }
 
-
-
-.menu .encontre_uma_agencia {
-    color: #000;
-    text-align: center;
-    font-family: Italiana;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 117.857%; /* 33px */
-}
-
-.menu .o_que_voce_procura {
-    color: #000;
-    text-align: center;
-    font-family: Italiana;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 117.857%; /* 33px */
-}
-
 .slider {
     margin: 0 auto;
     width: 1322px;
@@ -311,7 +289,7 @@ header .menu {
  
 
 
-  .main_container .estudos  .subtitle {
+  .subtitle {
     color: #000;
     text-align: left;
     padding: 12px;
@@ -321,29 +299,6 @@ header .menu {
     font-style: normal;
     font-weight: 400;
   }
-  
-  .main_container .ferias span {
-    color: #000;
-    text-align: left;
-    padding: 12px;
-    text-shadow: 6px 4pxx 4px rgba(0, 0, 0, 0.29);
-    font-family: Italiana;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 400;
-  }
-  
-  .main_container .trabalho span {
-    color: #000;
-    text-align: left;
-    padding: 12px;
-    text-shadow: 6px 4pxx 4px rgba(0, 0, 0, 0.29);
-    font-family: Italiana;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 400;
-  }
-  
 
    .pais_destaque {
     margin-top: 24px;
